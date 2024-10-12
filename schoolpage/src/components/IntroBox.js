@@ -7,6 +7,9 @@ import blog_logo from '../images/blog_logo.png';
 function IntroBox({ crewData }) {
     const { intro_crewName, intro_crewImg, simple_intro, insta, blog } = crewData;
 
+
+    const crewImg = intro_crewImg;
+    const crewName = intro_crewName;
     
 
     const [isHovered, setHovered] = useState(false);

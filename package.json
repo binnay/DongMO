@@ -1,9 +1,24 @@
 {
   "dependencies": {
-    "react-modal": "^3.16.1"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-modal": "^3.16.1",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.27.0",
+    "styled-components": "^6.1.13"
   },
   "devDependencies": {
     "@babel/core": "^7.23.3",
     "@babel/preset-env": "^7.23.3"
-  }
+  },
+  "name": "webframe_teamproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

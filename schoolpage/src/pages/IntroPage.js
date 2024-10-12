@@ -25,26 +25,26 @@ function IntroPage() {
     return (
       <>
         <TopMenuBar />
-  
+    
         <div className="banner-container">
           <div className="banner-image">
             <img src={banner} alt="Hansung Banner" />
           </div>
-  
+    
           <div className="centered-container">
             <ul onClick={() => setView(!view)}>
               <span className="emphasis-text">{filter} </span> {view ? '⌃' : '⌄'}
               {view && <Dropdown setView={setView} onFilterChange={handleFilterChange} />}
             </ul>
           </div>
-
-  
-        
+        </div>
+    
         <div className="content-container">
-          {filter && <Tab filter={filter} Info={Info}/>}
+          {filter && <Tab filter={filter} Info={Info} />}
         </div>
       </>
     );
+    
   }
   
   
